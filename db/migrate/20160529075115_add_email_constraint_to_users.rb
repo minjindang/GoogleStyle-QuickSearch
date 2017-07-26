@@ -23,7 +23,7 @@ class AddEmailConstraintToUsers < ActiveRecord::Migration
     end
   end
 
-/*
+=begin
   def up
     execute %{
       ALTER TABLE
@@ -42,5 +42,5 @@ class AddEmailConstraintToUsers < ActiveRecord::Migration
       	email_must_be_company_email
     }
   end
-*/
+=end
 end
